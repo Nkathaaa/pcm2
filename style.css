@@ -3,13 +3,22 @@
     width:60px;
 }
 .header_wrapper{
-    background-color: grey;
- 
+   
+     background: linear-gradient(to bottom left, rgba(0,0,0,0.1) 45%,rgba(0,0.9,0,0) 5%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%),url(img/hero_img.jpg) center;
+    
+  
 }
 .nav-link{
     color:white
 }
+#main_action{
+  transition: width 2s;
+}
+#main_action:hover{
+  width:200px;
+  opacity: 0.9;
 
+}
 .user-pic {
     width: 150px;
     height: 150px;
